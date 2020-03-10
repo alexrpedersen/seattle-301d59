@@ -18,21 +18,24 @@ header {
     height: 75px;
     margin: 25px;
     width: 100px;
-    float: left;
     border: 5px solid green;
     line-height: 75px;
     text-align: center;
     color: white;
   }
 
-  @media( min-width: 768px ) {
+  @media( min-width: 960px ) {
 
     section {
       display:table;
     }
+
+    div {
+      float: left;
+    }
   }
 
-  @media( max-width: 960px ) {
+  @media( max-width: 768px ) {
 
    section {
         display:inline-block;
