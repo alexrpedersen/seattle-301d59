@@ -15,25 +15,57 @@ header {
   }
   
   div {
-    height: 200px;
+    height: 75px;
     margin: 25px;
-    width: 200px;
-    float: left;
+    width: 100px;
     border: 5px solid green;
-    line-height: 200px;
+    line-height: 75px;
     text-align: center;
+    color: white;
   }
 
-  @media( min-width: 768px ) {
+  @media( min-width: 960px ) {
 
     section {
       display:table;
     }
+
+    div {
+      float: left;
+      background-color: teal;
+    }
+
+    .sec1 {
+      width: auto;
+      height: auto;
+      padding: 20px;
+      margin: auto;
+      border: 5px solid rgb(8, 250, 40);
+      background-color: teal;
   }
 
-  @media( max-width: 960px ) {
+  }
+
+  @media( max-width: 768px ) {
 
    section {
         display:inline-block;
    }
+
+   .sec1 {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    border: 5px solid rgb(8, 250, 40);
+    background-color: peru;
+}
+
+  div {
+    background-color: violet;
   }
+
+  }
+
+  
+  

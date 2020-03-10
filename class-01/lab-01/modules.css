@@ -1,0 +1,35 @@
+.sec1 {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    border: 5px solid rgb(8, 250, 40);
+    background-color: peru;
+}
+
+.sec2 {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    border: 5px solid rgb(230, 160, 9);
+    background-color: red;
+}
+
+.sec3 {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: auto;
+    border: 5px solid rgb(197, 18, 122);
+    background-color: blue;
+}
+
+.sec4 {
+    width: auto;
+    height: auto;
+    padding: 25px;
+    margin: auto;
+    border: 5px solid rgb(13, 169, 216);
+    background-color: purple;
+}
